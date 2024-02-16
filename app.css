@@ -101,7 +101,7 @@ header{
     display: flex;
     justify-content:space-evenly;
     align-items: center;
-    margin: 7rem 10%;
+    margin: 6rem 10%;
     padding: 1rem;
     border: 2px solid #fff;
 }
