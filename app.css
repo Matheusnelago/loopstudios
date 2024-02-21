@@ -24,7 +24,6 @@ section{
     background: url(./images/mobile/image-hero.jpg) no-repeat;
     background-size: auto;
     background-position: center;
-    max-height: 120vh;
     overflow: hidden;
 }
 header{
@@ -74,7 +73,7 @@ header{
         background: url(./images/desktop/image-hero.jpg) no-repeat;
         background-size: cover;
         background-position: center;
-        height: 100vh;
+        padding-bottom: 5rem;
         width: 100%;
     }
     header{
@@ -205,7 +204,7 @@ h1{
     .text1{
         text-align: center;
         font-size: 3.3rem;
-        font-weight: 400;
+        font-weight: 300;
         text-transform: uppercase;
         color: var(--color-2);
     }
@@ -216,7 +215,7 @@ h1{
         display: flex;
         justify-content: center;
         text-align: center;
-        border: 1px solid var(--color-1);
+        border: 1px solid var(--color-2);
         margin: 0 5rem;
         padding: .5rem 2rem;
         font-family: "Alata", sans-serif;
@@ -363,7 +362,7 @@ h1{
         }
         .row{
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(190px , 4fr));
+            grid-template-columns: repeat(auto-fit, minmax(220px , 4fr));
             gap: 3rem;
             padding-top: 4rem;
             .items{
@@ -377,7 +376,7 @@ h1{
                     font-size: 1.5rem;
                     font-weight: 100;
                     text-align: left;
-                    max-width: 55%;
+                    max-width: 60%;
                     text-transform: uppercase;
                     color: var(--color-1);
                     z-index: 1;
@@ -393,6 +392,9 @@ h1{
                 background-position: center;
                 background-size: cover;
                 filter: brightness(80%);
+            }
+            .item1 > .item-text{
+                max-width: 35%;
             }
             .item2 > .item-img{
                 position: absolute;
