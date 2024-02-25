@@ -20,6 +20,7 @@ section{
 }
 
 /*hero page header*/
+
 .section1{
     background: url(./images/mobile/image-hero.jpg) no-repeat;
     background-size: auto;
@@ -29,7 +30,7 @@ section{
 header{
     display: flex;
     justify-content: space-between;
-    padding: 3rem;
+    padding: 3rem 2rem;
     .ham{
         line-height: 40px;
         cursor: pointer;
@@ -63,7 +64,7 @@ header{
         .navbar a{
             display: block;
             padding: 1rem 0;
-            font-size: 1.2em;
+            font-size: 1rem;
             color: var(--color-1);
         }
     }
@@ -219,19 +220,20 @@ h1{
         justify-content: center;
         text-align: center;
         border: 1px solid var(--color-2);
-        margin: 4rem 5rem 3rem;
+        margin: 7rem;
         padding: .5rem 2rem;
         font-family: "Alata", sans-serif;
         font-size: 1rem;
     }
     .row{
         display: grid;
+        align-items: end;
         grid-template-rows: repeat(auto-fit, minmax(200px, 8fr));
-        grid-gap: 2rem;
+        gap: 2rem;
         padding-left: -1rem;
         .items{
             width: 100%;
-            height: 150px;
+            height: 130px;
             position: relative;
             .item-text{
                 font-size: 1.6rem;
@@ -251,6 +253,7 @@ h1{
             left: 0;
             width: 100%;
             height: 100%;
+            padding-bottom: -2rem;
             background: url(./images/mobile/image-deep-earth.jpg) no-repeat;
             background-position: center;
             background-size: cover;
@@ -304,7 +307,7 @@ h1{
             filter: brightness(75%);
         }
         .item5 > .item-text{
-            max-width: 40%;
+            max-width: 45%;
         }
         .item6 > .item-img{
             position: absolute;
