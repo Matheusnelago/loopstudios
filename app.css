@@ -59,7 +59,7 @@ header{
             }
         }
         .navbar{
-            padding: 4rem 3rem;
+            padding: 4rem 1.5rem;
         }
         .navbar a{
             display: block;
@@ -133,7 +133,7 @@ h1{
 /*section about*/
 
 .section2{
-    padding: 7rem 10%;
+    padding: 7rem 2rem;
     overflow: hidden;
 }
 @media (max-width: 750px) {
@@ -210,7 +210,7 @@ h1{
         font-weight: 300;
         text-transform: uppercase;
         color: var(--color-2);
-        padding-bottom: 5rem;
+        padding-bottom: 3rem;
     }
     
 }
