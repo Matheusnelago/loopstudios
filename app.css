@@ -133,7 +133,7 @@ h1{
 /*section about*/
 
 .section2{
-    padding: 7rem 2rem;
+    padding: 7rem 10%;
     overflow: hidden;
 }
 @media (max-width: 750px) {
